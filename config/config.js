@@ -13,6 +13,6 @@ firebase.initializeApp({
   credential: firebase.credential.cert(serviceAccount),
 });
 const database = firebase.firestore();
-const user = database.collection("user");
+const user = database.collection("product");
 
 module.exports = user;
